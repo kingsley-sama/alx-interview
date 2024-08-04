@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-from collections import deque
 """module that defines canUnlockAll functionn"""
+from collections import deque
 
 
 def canUnlockAll(boxes):
