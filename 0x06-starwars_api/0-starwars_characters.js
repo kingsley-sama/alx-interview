@@ -1,4 +1,5 @@
-#!/usr/bin/env node
+#!/usr/bin/node
+// fetches an api asynchronously without using await
 const request = require('request');
 request(`https://swapi-api.alx-tools.com/api/films/${process.argv[2]}`, (error, response, body) => {
   if (error) return error;
